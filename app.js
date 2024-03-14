@@ -28,6 +28,7 @@ app.use(cors({
   credentials: true,
   methods: ["GET", "POST", "DELETE", "PUT"]
 }))
+
 // import Routes
 import course from "./routes/courseRoutes.js"
 import user from "./routes/userRoutes.js"
